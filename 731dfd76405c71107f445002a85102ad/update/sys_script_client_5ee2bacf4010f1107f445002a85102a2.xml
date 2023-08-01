@@ -12,7 +12,8 @@
         <order/>
         <script><![CDATA[function onLoad() {
 
-    // This uses the dotwalking superpowers of the Scratchpad to use the requestor's city & state as the default location to be used. Make sure whomever you use for testing has values in their user record for this!
+    // This uses the Scratchpad to use the requestor's city & state as the default location to be used.
+	// Make sure the user has city and country filled out.
 
     if (g_form.getValue('location_to_be_used') != '') {
         return;
@@ -39,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ee2bacf4010f1107f445002a85102a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Set Loaner Location</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">731dfd76405c71107f445002a85102ad</sys_package>
@@ -47,7 +48,7 @@
         <sys_scope display_value="Loaner Request">731dfd76405c71107f445002a85102ad</sys_scope>
         <sys_update_name>sys_script_client_5ee2bacf4010f1107f445002a85102a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-01 15:17:05</sys_updated_on>
+        <sys_updated_on>2023-08-01 15:41:11</sys_updated_on>
         <table>x_cdltd_loaner_req_loaner_request</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
